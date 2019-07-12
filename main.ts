@@ -120,8 +120,8 @@ namespace Kimlabmicrobit {
 	//% blockId="LWHEELf" block="Left_wheel_FORWARD"
     
     export function LWHEELf(): void {
-	pins.digitalWritePin(DigitalPin.P14, 1)
-    pins.digitalWritePin(DigitalPin.P16, 0)
+	pins.digitalWritePin(DigitalPin.P16, 1)
+    pins.digitalWritePin(DigitalPin.P14, 0)
         
     }
 	
@@ -132,8 +132,8 @@ namespace Kimlabmicrobit {
 	//% blockId="LWHEELb" block="Left_wheel_BACK"
    
     export function LWHEELb(): void {
-	pins.digitalWritePin(DigitalPin.P14, 0)
-    pins.digitalWritePin(DigitalPin.P16, 1)
+	pins.digitalWritePin(DigitalPin.P16, 0)
+    pins.digitalWritePin(DigitalPin.P14, 1)
         
     }
 	
